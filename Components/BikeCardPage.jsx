@@ -1,6 +1,5 @@
 import React from 'react'
 import './BikeCardPage.css'
-import AutoComplete from './AutoComplete'
 import { Link, useNavigate } from 'react-router-dom'
 
 import axios from 'axios'
@@ -32,11 +31,6 @@ axios.post(`https://royalbrothers.cyclic.app/Cart`,{
    
 
 <p className='avail_at'>Available at</p>
-{/* <div id="auto">
-
-<AutoComplete/>
-
-</div> */}
 
 <div className='time_date'>
 

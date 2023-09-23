@@ -107,7 +107,6 @@ nav('/')
             <input
               type="text"
               name="mobile"
-              autoComplete="off"
               onChange={(e) => setMobile(e.target.value)}
               value={mobile}
               placeholder="As Per Aadhar"
@@ -119,7 +118,6 @@ nav('/')
         <input
           type="password"
           name="password"
-          autoComplete="off"
           onChange={(e) => setPassword(e.target.value)}
           value={password}
           placeholder="Password"

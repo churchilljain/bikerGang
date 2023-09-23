@@ -42,29 +42,10 @@ function PlacementExample() {
             ></i>
           </div>
           <DrawerBody className="navbarSideDrawer">
-            <Link>Select City</Link>
-            <hr />
-
-            {/* <Link>Store</Link>
-            <hr /> */}
-            <Link>Bike-o-Rent</Link>
-            <hr />
-            {/* <Link>Partner With Us</Link>
-            <hr /> */}
-            {/* <Link>Blog</Link>
-            <hr />
-            <Link>Indian Bike Routes</Link>
-            <hr />
-            <Link>Inter-City Travel</Link>
-            <hr />
-            <Link>Rent From Bangalore Airport</Link> */}
-            {/* <hr /> */}
             <Link>About Us</Link>
             <hr />
             <Link>Terms & Condition</Link>
             <hr />
-            {/* <Link>Bike Tour</Link>
-            <hr /> */}
             <Link>Privacy Policy</Link>
             <hr />
             <Link>FAQ</Link>
