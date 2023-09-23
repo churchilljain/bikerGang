@@ -1,0 +1,180 @@
+.dateSelectorDiv {
+  /* background: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/new_year_web-a2bad80df84aa805b5865ee860f0ba64c6e28deadc8e66a417238e732741c0a4.jpg"); */
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.homeBikeCardDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  width: 80%;
+  gap: 20px;
+  margin: auto;
+}
+.homeBikeCardDiv > div {
+  border-radius: 5px;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  text-align: center;
+}
+
+.homeBikeCardDiv > div > h3 {
+  padding: 10px;
+}
+.homeBikeCardDiv img {
+  width: 70%;
+  margin: auto;
+}
+
+/* Popup card close button */
+.fa-solid:hover {
+  cursor: pointer;
+}
+
+/* Duration button config */
+.durationButton {
+  border: none;
+  font-size: 14px;
+  padding: 15px 0px;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+  cursor:pointer;
+  /* margin-left: 15px; */
+}
+
+.durationDropdown {
+  cursor: pointer;
+  border-top: none;
+  position: absolute;
+  background: white;
+  width: inherit;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+.durationDropdown p {
+  padding: 10px 0;
+}
+.durationDropdown p:hover {
+  background-color: rgb(226, 226, 226);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .css-dplwbx-MuiPickersCalendarHeader-label,
+.css-12mkn7b-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton,
+.css-10fao8b-MuiPickersCalendarHeader-labelContainer {
+  display: none !important;
+} */
+
+/* .css-9reuh9-MuiPickersArrowSwitcher-root {
+  width: 100% !important;
+  justify-content: space-between !important;
+} */
+
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+}
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:hover {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+  color: #fff !important;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+}
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not.Mui-selected {
+  display: none !important;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+}
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  border: none !important;
+}
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:hover {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+}
+
+.css-3eghsz-PrivatePickersYear-button.Mui-selected {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+}
+.css-3eghsz-PrivatePickersYear-button:hover {
+  background-color: #fed250 !important;
+  border-radius: 14% !important;
+  color: #fff;
+}
+.durationDropdown{
+  z-index: 500;
+  display: block;
+  max-height: 200px;
+  overflow: scroll;
+  color:"black"
+}
+
+#textDivQuality h3{
+  font-size: 30px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px)  {
+  #textDivQualityParent{
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #textDivQualityParent{
+    display: block;
+    text-align: center;
+  }
+  #textDivQuality {
+    width:100%;
+    padding: 0px;
+    text-align: center;
+    background-color: #fed250;
+
+  }
+  #textDivQuality h3{
+    font-size: 20px;
+  }
+    .homeBikeCardDiv{
+      grid-template-columns: repeat(2,1fr);
+    }
+    #textDivQuality p{
+      display: none;
+    }
+    .dateSelectorDiv{
+
+      background-size: cover;
+    }
+}
